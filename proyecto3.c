@@ -1,3 +1,6 @@
+//Guillermo Delgado Lopez C02585
+//Cristian David Vega Romero C18418
+//Andrés Bonilla Vega B81220
 #include <stdio.h>
 #include <stdlib.h>
 
