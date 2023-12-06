@@ -1,0 +1,16 @@
+CC = gcc
+CFLAGS = -Wall -g
+SOURCE_FILES = proyecto3.c
+EXECUTABLE = p3
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -o $@ $^
+
+run: $(EXECUTABLE)
+	./$(EXECUTABLE)
+
+clean:
+	rm -f $(EXECUTABLE)
+
