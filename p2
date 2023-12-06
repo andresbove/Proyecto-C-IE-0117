@@ -1,0 +1,16 @@
+CC = gcc
+CFLAGS = -Wall -g
+SOURCE_FILES = proyecto2.c 
+EXECUTABLE = p2              
+
+all: p2
+
+p2: $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(SOURCE_FILES) -lm 
+
+run: p2
+	./$(EXECUTABLE)
+
+clean:
+	rm -f $(EXECUTABLE)
+
