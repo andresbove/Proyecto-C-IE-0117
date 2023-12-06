@@ -54,7 +54,7 @@ int main() {
     // Capturar las distancias entre las ciudades
     for (int i = 0; i < CantCiudades; i++) {
         for (int j = 0; j < CantCiudades; j++) {
-            printf("Ingrese la distancia entre la ciudad %s y %s (-1 si no están conectadas): ", Ciudades[i], Ciudades[j]);
+            printf("Ingrese la distancia entre la ciudad %s y %s (-1 si no estan conectadas): ", Ciudades[i], Ciudades[j]);
             scanf("%d", &Distancias[i][j]); // Leer la distancia entre las ciudades i y j
             if (Distancias[i][j] == -1 && i != j) {
                 Distancias[i][j] = 0; // Si es -1 y no es la misma ciudad, se asume que no están conectadas (se establece distancia cero)
