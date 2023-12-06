@@ -1,3 +1,6 @@
+#Guillermo Delgado Lopez C02585
+#Cristian David Vega Romero C18418
+#Andrés Bonilla Vega B81220
 CC = gcc
 CFLAGS = -Wall -g
 SOURCE_FILES = proyecto3.c
