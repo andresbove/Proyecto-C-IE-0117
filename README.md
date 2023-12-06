@@ -1,7 +1,7 @@
 # Proyecto-C-IE-0117
 Repositorio para subir los códigos del proyecto de C para el curso Programación Bajo Plataformas Abiertas
 Buenas, profesor! 
-Acá hay algunas notas para lo que es el uso del ejecutable del primer enunciado del proyecto.
+Acá hay algunas notas para lo que es el uso del ejecutable del primer enunciado del proyecto.\n
 El algoritmo le pedirá la cantidad de ciudades
 El usuario nombrará a puede nombrar a ciudades SOLO con una letra, mayúscula o minúscula
 
